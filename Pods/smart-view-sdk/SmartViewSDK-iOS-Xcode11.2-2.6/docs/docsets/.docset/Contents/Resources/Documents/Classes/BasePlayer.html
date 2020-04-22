@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BasePlayer Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/BasePlayer" class="dashAnchor"></a>
+    <a title="BasePlayer Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (83% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        BasePlayer Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Application.html">Application</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AudioPlayer.html">AudioPlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AudioPlayer/AudioRepeatMode.html">– AudioRepeatMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BasePlayer.html">BasePlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Channel.html">Channel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChannelClient.html">ChannelClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MediaPlayer.html">MediaPlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MediaPlayer/PlayerNotice.html">– PlayerNotice</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Message.html">Message</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PhotoPlayer.html">PhotoPlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SSLCert.html">SSLCert</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SSLSecurity.html">SSLSecurity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Service.html">Service</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ServiceSearch.html">ServiceSearch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VideoPlayer.html">VideoPlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VideoPlayer/VideoRepeatMode.html">– VideoRepeatMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WebSocket.html">WebSocket</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WebSocket/CloseCode.html">– CloseCode</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v9SmartView16MSDidFindServiceSS">MSDidFindService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v9SmartView18MSDidFoundUsingBLESS">MSDidFoundUsingBLE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v9SmartView18MSDidRemoveServiceSS">MSDidRemoveService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v9SmartView16MSDidStartSearchSS">MSDidStartSearch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v9SmartView15MSDidStopSearchSS">MSDidStopSearch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v9SmartView31WebsocketDidConnectNotificationSS">WebsocketDidConnectNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v9SmartView34WebsocketDidDisconnectNotificationSS">WebsocketDidDisconnectNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v9SmartView34WebsocketDisconnectionErrorKeyNameSS">WebsocketDisconnectionErrorKeyName</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ChannelEvent.html">ChannelEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MessageTarget.html">MessageTarget</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ServiceSearchDiscoveryType.html">ServiceSearchDiscoveryType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F9SmartViewoi2eeFTCS_13ChannelClientS0__Sb">==(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F9SmartViewoi2eeFTCS_7ServiceS0__Sb">==(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/AudioPlayerDelegate.html">AudioPlayerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChannelDelegate.html">ChannelDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ConnectionDelegate.html">ConnectionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PhotoPlayerDelegate.html">PhotoPlayerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ServiceSearchDelegate.html">ServiceSearchDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VideoPlayerDelegate.html">VideoPlayerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/WebSocketDelegate.html">WebSocketDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/WebSocketPongDelegate.html">WebSocketPongDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>BasePlayer</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">class</span> <span class="kt">BasePlayer</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>Base class for audio, video and photo player</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9SmartView10BasePlayer18connectionDelegateXwGSqPS_18ConnectionDelegate__"></a>
+                    <a name="//apple_ref/swift/Property/connectionDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9SmartView10BasePlayer18connectionDelegateXwGSqPS_18ConnectionDelegate__">connectionDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The Connection delegate protocol defines the event methods available for channel Connection/DisConnection.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">connectionDelegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/ConnectionDelegate.html">ConnectionDelegate</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/APIs%20for%20Common%20Use,%20Objective%20C%20+%20Swift"></a>
+                <a name="//apple_ref/swift/Section/APIs for Common Use, Objective C + Swift" class="dashAnchor"></a>
+                <a href="#/APIs%20for%20Common%20Use,%20Objective%20C%20+%20Swift">
+                  <h3 class="section-name">APIs for Common Use, Objective C + Swift</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView10BasePlayer10disconnectFTSb17completionHandlerGSqFGSqCSo7NSError_T___T_"></a>
+                    <a name="//apple_ref/swift/Method/disconnect(_:completionHandler:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView10BasePlayer10disconnectFTSb17completionHandlerGSqFGSqCSo7NSError_T___T_">disconnect(_:completionHandler:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Disconnects to the channel. This method will asynchronously call the delegate&rsquo;s onDisconnect method and post a
+ChannelEvent.
+- parameter completionHandler: callback handler of OnDisconnect</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">disconnect</span><span class="p">(</span><span class="n">_</span> <span class="nv">leaveHostRunning</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">NSError</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionHandler</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>callback handler of OnDisconnect</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView10BasePlayer14standbyConnectFTGSqV10Foundation3URL_17completionHandlerGSqFGSqCSo7NSError_T___T_"></a>
+                    <a name="//apple_ref/swift/Method/standbyConnect(_:completionHandler:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView10BasePlayer14standbyConnectFTGSqV10Foundation3URL_17completionHandlerGSqFGSqCSo7NSError_T___T_">standbyConnect(_:completionHandler:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>connects to the DMP standby screen with provides functionality to launch with Logo or upto three Background images
+- parameter screenSaverURL1:        Optional Background Image Url</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">standbyConnect</span><span class="p">(</span><span class="n">_</span> <span class="nv">screenSaverURL1</span><span class="p">:</span> <span class="kt">URL</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="p">((</span><span class="kt">NSError</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>screenSaverURL1</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Optional Background Image Url</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView10BasePlayer14standbyConnectFTGSqV10Foundation3URL_15screenSaverURL2GSqS2__17completionHandlerGSqFGSqCSo7NSError_T___T_"></a>
+                    <a name="//apple_ref/swift/Method/standbyConnect(_:screenSaverURL2:completionHandler:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView10BasePlayer14standbyConnectFTGSqV10Foundation3URL_15screenSaverURL2GSqS2__17completionHandlerGSqFGSqCSo7NSError_T___T_">standbyConnect(_:screenSaverURL2:completionHandler:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>connects to the DMP standby screen with provides functionality to launch with Logo or upto three Background images
+- parameter screenSaverURL1:        Optional Background Image Url
+- parameter screenSaverURL2:        Optional Background Image Url</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">standbyConnect</span><span class="p">(</span><span class="n">_</span> <span class="nv">screenSaverURL1</span><span class="p">:</span> <span class="kt">URL</span><span class="p">?,</span> <span class="nv">screenSaverURL2</span><span class="p">:</span> <span class="kt">URL</span><span class="p">?,</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="p">((</span><span class="kt">NSError</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>screenSaverURL1</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Optional Background Image Url</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>screenSaverURL2</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Optional Background Image Url</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView10BasePlayer14standbyConnectFTGSqV10Foundation3URL_15screenSaverURL2GSqS2__15screenSaverURL3GSqS2__17completionHandlerGSqFGSqCSo7NSError_T___T_"></a>
+                    <a name="//apple_ref/swift/Method/standbyConnect(_:screenSaverURL2:screenSaverURL3:completionHandler:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView10BasePlayer14standbyConnectFTGSqV10Foundation3URL_15screenSaverURL2GSqS2__15screenSaverURL3GSqS2__17completionHandlerGSqFGSqCSo7NSError_T___T_">standbyConnect(_:screenSaverURL2:screenSaverURL3:completionHandler:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>connects to the DMP standby screen with provides functionality to launch with Logo or upto three Background images
+- parameter screenSaverURL1:        Optional Background Image Url
+- parameter screenSaverURL2:        Optional Background Image Url
+- parameter screenSaverURL3:        Optional Background Image Url
+- parameter completionHandler: The response completion closure, it will be executed in the request queue i.e. in a backgound thread.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">standbyConnect</span><span class="p">(</span><span class="n">_</span> <span class="nv">screenSaverURL1</span><span class="p">:</span> <span class="kt">URL</span><span class="p">?,</span> <span class="nv">screenSaverURL2</span><span class="p">:</span> <span class="kt">URL</span><span class="p">?,</span> <span class="nv">screenSaverURL3</span><span class="p">:</span> <span class="kt">URL</span><span class="p">?,</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="p">((</span><span class="kt">NSError</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>screenSaverURL1</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Optional Background Image Url</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>screenSaverURL2</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Optional Background Image Url</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>screenSaverURL3</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Optional Background Image Url</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionHandler</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response completion closure, it will be executed in the request queue i.e. in a backgound thread.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView10BasePlayer18setPlayerWatermarkFGSqV10Foundation3URL_T_"></a>
+                    <a name="//apple_ref/swift/Method/setPlayerWatermark(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView10BasePlayer18setPlayerWatermarkFGSqV10Foundation3URL_T_">setPlayerWatermark(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the Watermark for the player
+- parameter watermarkUrl:        Url from where watermark image will be downloaded</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">setPlayerWatermark</span><span class="p">(</span><span class="n">_</span> <span class="nv">watermarkUrl</span><span class="p">:</span> <span class="kt">URL</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>watermarkUrl</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Url from where watermark image will be downloaded</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView10BasePlayer21removePlayerWatermarkFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/removePlayerWatermark()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView10BasePlayer21removePlayerWatermarkFT_T_">removePlayerWatermark()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Removes Player watermark set</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">removePlayerWatermark</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView10BasePlayer4playFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/play()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView10BasePlayer4playFT_T_">play()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Play last sent media contents.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">play</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView10BasePlayer5pauseFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/pause()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView10BasePlayer5pauseFT_T_">pause()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Pause currently playing media.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">pause</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView10BasePlayer4stopFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/stop()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView10BasePlayer4stopFT_T_">stop()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Stop currently playing media.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">stop</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView10BasePlayer4muteFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/mute()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView10BasePlayer4muteFT_T_">mute()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Mute the volume of player on a connected device.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">mute</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView10BasePlayer6unMuteFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/unMute()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView10BasePlayer6unMuteFT_T_">unMute()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>UnMute the volume of player on a connected device.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">unMute</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView10BasePlayer8previousFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/previous()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView10BasePlayer8previousFT_T_">previous()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Request previous to the player on a connected device.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">previous</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView10BasePlayer4nextFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/next()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView10BasePlayer4nextFT_T_">next()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Request next to the player on a connected device.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">next</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView10BasePlayer9setVolumeFVs5UInt8T_"></a>
+                    <a name="//apple_ref/swift/Method/setVolume(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView10BasePlayer9setVolumeFVs5UInt8T_">setVolume(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set volume on device playing media.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">setVolume</span><span class="p">(</span><span class="n">_</span> <span class="nv">volume</span><span class="p">:</span> <span class="kt">UInt8</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>volume</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Integer value between 0 and 100.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView10BasePlayer8volumeUpFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/volumeUp()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView10BasePlayer8volumeUpFT_T_">volumeUp()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>increase volume of the player by 1.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">volumeUp</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView10BasePlayer10volumeDownFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/volumeDown()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView10BasePlayer10volumeDownFT_T_">volumeDown()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>decrease volume of the player by 1.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">volumeDown</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView10BasePlayer16getControlStatusFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/getControlStatus()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView10BasePlayer16getControlStatusFT_T_">getControlStatus()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>get the control status of the player - like volume etc.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">getControlStatus</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-06-08)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.4</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

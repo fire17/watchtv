@@ -1,0 +1,20 @@
+PODS:
+  - smart-view-sdk (2.6)
+  - Starscream (4.0.3)
+
+DEPENDENCIES:
+  - smart-view-sdk
+  - Starscream (~> 4.0.0)
+
+SPEC REPOS:
+  trunk:
+    - smart-view-sdk
+    - Starscream
+
+SPEC CHECKSUMS:
+  smart-view-sdk: 0a3bfae86891da7a938525de81ffe9dc28f86d41
+  Starscream: ef06f0961fff0880bca0604416d61141e4faca67
+
+PODFILE CHECKSUM: a7c88f78bdd53221c52957f947c4058609d63a9b
+
+COCOAPODS: 1.9.1

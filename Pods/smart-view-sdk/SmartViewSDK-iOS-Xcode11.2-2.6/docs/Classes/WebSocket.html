@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WebSocket Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/WebSocket" class="dashAnchor"></a>
+    <a title="WebSocket Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (83% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        WebSocket Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Application.html">Application</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AudioPlayer.html">AudioPlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AudioPlayer/AudioRepeatMode.html">– AudioRepeatMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BasePlayer.html">BasePlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Channel.html">Channel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChannelClient.html">ChannelClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MediaPlayer.html">MediaPlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MediaPlayer/PlayerNotice.html">– PlayerNotice</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Message.html">Message</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PhotoPlayer.html">PhotoPlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SSLCert.html">SSLCert</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SSLSecurity.html">SSLSecurity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Service.html">Service</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ServiceSearch.html">ServiceSearch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VideoPlayer.html">VideoPlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VideoPlayer/VideoRepeatMode.html">– VideoRepeatMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WebSocket.html">WebSocket</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WebSocket/CloseCode.html">– CloseCode</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v9SmartView16MSDidFindServiceSS">MSDidFindService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v9SmartView18MSDidFoundUsingBLESS">MSDidFoundUsingBLE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v9SmartView18MSDidRemoveServiceSS">MSDidRemoveService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v9SmartView16MSDidStartSearchSS">MSDidStartSearch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v9SmartView15MSDidStopSearchSS">MSDidStopSearch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v9SmartView31WebsocketDidConnectNotificationSS">WebsocketDidConnectNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v9SmartView34WebsocketDidDisconnectNotificationSS">WebsocketDidDisconnectNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v9SmartView34WebsocketDisconnectionErrorKeyNameSS">WebsocketDisconnectionErrorKeyName</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ChannelEvent.html">ChannelEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MessageTarget.html">MessageTarget</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ServiceSearchDiscoveryType.html">ServiceSearchDiscoveryType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F9SmartViewoi2eeFTCS_13ChannelClientS0__Sb">==(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F9SmartViewoi2eeFTCS_7ServiceS0__Sb">==(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/AudioPlayerDelegate.html">AudioPlayerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChannelDelegate.html">ChannelDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ConnectionDelegate.html">ConnectionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PhotoPlayerDelegate.html">PhotoPlayerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ServiceSearchDelegate.html">ServiceSearchDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VideoPlayerDelegate.html">VideoPlayerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/WebSocketDelegate.html">WebSocketDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/WebSocketPongDelegate.html">WebSocketPongDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>WebSocket</h1>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:OC9SmartView9WebSocket9CloseCode"></a>
+                    <a name="//apple_ref/swift/Enum/CloseCode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:OC9SmartView9WebSocket9CloseCode">CloseCode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Classes/WebSocket/CloseCode.html" class="slightly-smaller">See more</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvC9SmartView9WebSocket11ErrorDomainSS"></a>
+                    <a name="//apple_ref/swift/Variable/ErrorDomain" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvC9SmartView9WebSocket11ErrorDomainSS">ErrorDomain</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9SmartView9WebSocket13callbackQueueCSo13DispatchQueue"></a>
+                    <a name="//apple_ref/swift/Property/callbackQueue" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9SmartView9WebSocket13callbackQueueCSo13DispatchQueue">callbackQueue</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Delegates"></a>
+                <a name="//apple_ref/swift/Section/Delegates" class="dashAnchor"></a>
+                <a href="#/Delegates">
+                  <h3 class="section-name">Delegates</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9SmartView9WebSocket8delegateXwGSqPS_17WebSocketDelegate__"></a>
+                    <a name="//apple_ref/swift/Property/delegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9SmartView9WebSocket8delegateXwGSqPS_17WebSocketDelegate__">delegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Responds to callback about new messages coming in over the WebSocket
+and also connection/disconnect messages.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">delegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/WebSocketDelegate.html">WebSocketDelegate</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9SmartView9WebSocket12pongDelegateXwGSqPS_21WebSocketPongDelegate__"></a>
+                    <a name="//apple_ref/swift/Property/pongDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9SmartView9WebSocket12pongDelegateXwGSqPS_21WebSocketPongDelegate__">pongDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Receives a callback for each pong message recived.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">pongDelegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/WebSocketPongDelegate.html">WebSocketPongDelegate</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Block%20based%20API."></a>
+                <a name="//apple_ref/swift/Section/Block based API." class="dashAnchor"></a>
+                <a href="#/Block%20based%20API.">
+                  <h3 class="section-name">Block based API.</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9SmartView9WebSocket9onConnectGSqFT_T__"></a>
+                    <a name="//apple_ref/swift/Property/onConnect" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9SmartView9WebSocket9onConnectGSqFT_T__">onConnect</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9SmartView9WebSocket12onDisconnectGSqFGSqCSo7NSError_T__"></a>
+                    <a name="//apple_ref/swift/Property/onDisconnect" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9SmartView9WebSocket12onDisconnectGSqFGSqCSo7NSError_T__">onDisconnect</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9SmartView9WebSocket6onTextGSqFSST__"></a>
+                    <a name="//apple_ref/swift/Property/onText" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9SmartView9WebSocket6onTextGSqFSST__">onText</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9SmartView9WebSocket6onDataGSqFV10Foundation4DataT__"></a>
+                    <a name="//apple_ref/swift/Property/onData" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9SmartView9WebSocket6onDataGSqFV10Foundation4DataT__">onData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9SmartView9WebSocket6onPongGSqFGSqV10Foundation4Data_T__"></a>
+                    <a name="//apple_ref/swift/Property/onPong" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9SmartView9WebSocket6onPongGSqFGSqV10Foundation4Data_T__">onPong</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9SmartView9WebSocket7headersGVs10DictionarySSSS_"></a>
+                    <a name="//apple_ref/swift/Property/headers" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9SmartView9WebSocket7headersGVs10DictionarySSSS_">headers</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9SmartView9WebSocket11voipEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/voipEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9SmartView9WebSocket11voipEnabledSb">voipEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9SmartView9WebSocket24disableSSLCertValidationSb"></a>
+                    <a name="//apple_ref/swift/Property/disableSSLCertValidation" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9SmartView9WebSocket24disableSSLCertValidationSb">disableSSLCertValidation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9SmartView9WebSocket8securityGSqCS_11SSLSecurity_"></a>
+                    <a name="//apple_ref/swift/Property/security" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9SmartView9WebSocket8securityGSqCS_11SSLSecurity_">security</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9SmartView9WebSocket22enabledSSLCipherSuitesGSqGSaVs6UInt16__"></a>
+                    <a name="//apple_ref/swift/Property/enabledSSLCipherSuites" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9SmartView9WebSocket22enabledSSLCipherSuitesGSqGSaVs6UInt16__">enabledSSLCipherSuites</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9SmartView9WebSocket6originGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/origin" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9SmartView9WebSocket6originGSqSS_">origin</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9SmartView9WebSocket7timeoutSi"></a>
+                    <a name="//apple_ref/swift/Property/timeout" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9SmartView9WebSocket7timeoutSi">timeout</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9SmartView9WebSocket11isConnectedSb"></a>
+                    <a name="//apple_ref/swift/Property/isConnected" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9SmartView9WebSocket11isConnectedSb">isConnected</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9SmartView9WebSocket10currentURLV10Foundation3URL"></a>
+                    <a name="//apple_ref/swift/Property/currentURL" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9SmartView9WebSocket10currentURLV10Foundation3URL">currentURL</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Private"></a>
+                <a name="//apple_ref/swift/Section/Private" class="dashAnchor"></a>
+                <a href="#/Private">
+                  <h3 class="section-name">Private</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView9WebSocketcFT3urlV10Foundation3URL9protocolsGSqGSaSS___S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(url:protocols:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView9WebSocketcFT3urlV10Foundation3URL9protocolsGSqGSaSS___S0_">init(url:protocols:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Used for setting protocols.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="kt">URL</span><span class="p">,</span> <span class="nv">protocols</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView9WebSocketcFT3urlV10Foundation3URL13writeQueueQOSOSC16QualityOfService9protocolsGSqGSaSS___S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(url:writeQueueQOS:protocols:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView9WebSocketcFT3urlV10Foundation3URL13writeQueueQOSOSC16QualityOfService9protocolsGSqGSaSS___S0_">init(url:writeQueueQOS:protocols:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView9WebSocket7connectFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/connect()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView9WebSocket7connectFT_T_">connect()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Connect to the WebSocket server on a background thread.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">connect</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView9WebSocket10disconnectFT12forceTimeoutGSqSd_9closeCodeVs6UInt16_T_"></a>
+                    <a name="//apple_ref/swift/Method/disconnect(forceTimeout:closeCode:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView9WebSocket10disconnectFT12forceTimeoutGSqSd_9closeCodeVs6UInt16_T_">disconnect(forceTimeout:closeCode:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Disconnect from the server. I send a Close control frame to the server, then expect the server to respond with a Close control frame and close the socket from its end. I notify my delegate once the socket has been closed.</p>
+
+<p>If you supply a non-nil <code>forceTimeout</code>, I wait at most that long (in seconds) for the server to close the socket. After the timeout expires, I close the socket and notify my delegate.</p>
+
+<p>If you supply a zero (or negative) <code>forceTimeout</code>, I immediately close the socket (without sending a Close control frame) and notify my delegate.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">disconnect</span><span class="p">(</span><span class="nv">forceTimeout</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">closeCode</span><span class="p">:</span> <span class="kt">UInt16</span> <span class="o">=</span> <span class="kt"><a href="../Classes/WebSocket/CloseCode.html">CloseCode</a></span><span class="o">.</span><span class="n">normal</span><span class="o">.</span><span class="n">rawValue</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>forceTimeout</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Maximum time to wait for the server to close the socket.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>closeCode</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The code to send on disconnect. The default is the normal close code for cleanly disconnecting a webSocket.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView9WebSocket5writeFT6stringSS10completionGSqFT_T___T_"></a>
+                    <a name="//apple_ref/swift/Method/write(string:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView9WebSocket5writeFT6stringSS10completionGSqFT_T___T_">write(string:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Write a string to the websocket. This sends it as a text frame.</p>
+
+<p>If you supply a non-nil completion block, I will perform it when the write completes.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">write</span><span class="p">(</span><span class="nv">string</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="p">())?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>str</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The string to write.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The (optional) completion handler.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView9WebSocket5writeFT4dataV10Foundation4Data10completionGSqFT_T___T_"></a>
+                    <a name="//apple_ref/swift/Method/write(data:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView9WebSocket5writeFT4dataV10Foundation4Data10completionGSqFT_T___T_">write(data:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Write binary data to the websocket. This sends it as a binary frame.</p>
+
+<p>If you supply a non-nil completion block, I will perform it when the write completes.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">write</span><span class="p">(</span><span class="nv">data</span><span class="p">:</span> <span class="kt">Data</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="p">())?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>data</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The data to write.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The (optional) completion handler.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView9WebSocket5writeFT4pingV10Foundation4Data10completionGSqFT_T___T_"></a>
+                    <a name="//apple_ref/swift/Method/write(ping:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView9WebSocket5writeFT4pingV10Foundation4Data10completionGSqFT_T___T_">write(ping:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Write a ping to the websocket. This sends it as a control frame.
+Yodel a   sound  to the planet.    This sends it as an astroid. <a href="http://youtu.be/Eu5ZJELRiJ8?t=42s">http://youtu.be/Eu5ZJELRiJ8?t=42s</a></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">write</span><span class="p">(</span><span class="nv">ping</span><span class="p">:</span> <span class="kt">Data</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="p">())?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9SmartView9WebSocket6streamFTCSo6Stream6handleVS1_5Event_T_"></a>
+                    <a name="//apple_ref/swift/Method/stream(_:handle:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9SmartView9WebSocket6streamFTCSo6Stream6handleVS1_5Event_T_">stream(_:handle:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Delegate for the stream methods. Processes incoming bytes</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">stream</span><span class="p">(</span><span class="n">_</span> <span class="nv">aStream</span><span class="p">:</span> <span class="kt">Stream</span><span class="p">,</span> <span class="n">handle</span> <span class="nv">eventCode</span><span class="p">:</span> <span class="kt">Stream</span><span class="o">.</span><span class="kt">Event</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-06-08)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.4</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

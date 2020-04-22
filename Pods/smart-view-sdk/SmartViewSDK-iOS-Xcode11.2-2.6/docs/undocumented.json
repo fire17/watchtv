@@ -1,0 +1,439 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/SSLSecurity.swift",
+      "line": 26,
+      "symbol": "SSLCert",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/SSLSecurity.swift",
+      "line": 53,
+      "symbol": "SSLSecurity",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/SSLSecurity.swift",
+      "line": 54,
+      "symbol": "SSLSecurity.validatedDN",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 26,
+      "symbol": "WebsocketDidConnectNotification",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 27,
+      "symbol": "WebsocketDidDisconnectNotification",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 28,
+      "symbol": "WebsocketDisconnectionErrorKeyName",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 30,
+      "symbol": "WebSocketDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 31,
+      "symbol": "WebSocketDelegate.websocketDidConnect(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 32,
+      "symbol": "WebSocketDelegate.websocketDidDisconnect(_:error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 33,
+      "symbol": "WebSocketDelegate.websocketDidReceiveMessage(_:text:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 34,
+      "symbol": "WebSocketDelegate.websocketDidReceiveData(_:data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 37,
+      "symbol": "WebSocketPongDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 38,
+      "symbol": "WebSocketPongDelegate.websocketDidReceivePong(socket:data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 41,
+      "symbol": "WebSocket",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 54,
+      "symbol": "WebSocket.CloseCode",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 55,
+      "symbol": "WebSocket.CloseCode.normal",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 56,
+      "symbol": "WebSocket.CloseCode.goingAway",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 57,
+      "symbol": "WebSocket.CloseCode.protocolError",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 58,
+      "symbol": "WebSocket.CloseCode.protocolUnhandledType",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 60,
+      "symbol": "WebSocket.CloseCode.noStatusReceived",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 62,
+      "symbol": "WebSocket.CloseCode.encoding",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 63,
+      "symbol": "WebSocket.CloseCode.policyViolated",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 64,
+      "symbol": "WebSocket.CloseCode.messageTooBig",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 67,
+      "symbol": "WebSocket.ErrorDomain",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 75,
+      "symbol": "WebSocket.callbackQueue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 122,
+      "symbol": "WebSocket.onConnect",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 123,
+      "symbol": "WebSocket.onDisconnect",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 124,
+      "symbol": "WebSocket.onText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 125,
+      "symbol": "WebSocket.onData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 126,
+      "symbol": "WebSocket.onPong",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 128,
+      "symbol": "WebSocket.headers",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 129,
+      "symbol": "WebSocket.voipEnabled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 130,
+      "symbol": "WebSocket.disableSSLCertValidation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 131,
+      "symbol": "WebSocket.security",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 132,
+      "symbol": "WebSocket.enabledSSLCipherSuites",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 133,
+      "symbol": "WebSocket.origin",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 134,
+      "symbol": "WebSocket.timeout",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 135,
+      "symbol": "WebSocket.isConnected",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 139,
+      "symbol": "WebSocket.currentURL",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/private/third-party/starscream/WebSocket.swift",
+      "line": 177,
+      "symbol": "WebSocket.init(url:writeQueueQOS:protocols:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/public/AudioPlayer.swift",
+      "line": 27,
+      "symbol": "AudioPlayerDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/public/Channel.swift",
+      "line": 196,
+      "symbol": "Channel.completionQueue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/public/Channel.swift",
+      "line": 496,
+      "symbol": "Channel.setSecurityMode(security:completionHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/public/ChannelClient.swift",
+      "line": 86,
+      "symbol": "==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/public/MediaPlayer.swift",
+      "line": 66,
+      "symbol": "MediaPlayer.PlayerNotice.PlayerState.Play",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/public/MediaPlayer.swift",
+      "line": 67,
+      "symbol": "MediaPlayer.PlayerNotice.PlayerState.Pause",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/public/MediaPlayer.swift",
+      "line": 68,
+      "symbol": "MediaPlayer.PlayerNotice.PlayerState.Stop",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/public/MediaPlayer.swift",
+      "line": 69,
+      "symbol": "MediaPlayer.PlayerNotice.PlayerState.Mute",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/public/MediaPlayer.swift",
+      "line": 70,
+      "symbol": "MediaPlayer.PlayerNotice.PlayerState.Unmute",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/public/MediaPlayer.swift",
+      "line": 71,
+      "symbol": "MediaPlayer.PlayerNotice.PlayerState.FF",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/public/MediaPlayer.swift",
+      "line": 72,
+      "symbol": "MediaPlayer.PlayerNotice.PlayerState.RWD",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/public/MediaPlayer.swift",
+      "line": 73,
+      "symbol": "MediaPlayer.PlayerNotice.PlayerState.SeekTo",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/public/MediaPlayer.swift",
+      "line": 74,
+      "symbol": "MediaPlayer.PlayerNotice.PlayerState.SetVolume",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/public/MediaPlayer.swift",
+      "line": 83,
+      "symbol": "MediaPlayer.PlayerNotice.VideoState.StreamCompleted",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/public/MediaPlayer.swift",
+      "line": 84,
+      "symbol": "MediaPlayer.PlayerNotice.VideoState.CurrentPlayTime",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/public/MediaPlayer.swift",
+      "line": 85,
+      "symbol": "MediaPlayer.PlayerNotice.VideoState.TotalDuration",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/public/MediaPlayer.swift",
+      "line": 86,
+      "symbol": "MediaPlayer.PlayerNotice.VideoState.BufferingStart",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/public/MediaPlayer.swift",
+      "line": 87,
+      "symbol": "MediaPlayer.PlayerNotice.VideoState.BufferingProgress",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/public/MediaPlayer.swift",
+      "line": 88,
+      "symbol": "MediaPlayer.PlayerNotice.VideoState.BufferingComplete",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/public/MediaPlayer.swift",
+      "line": 89,
+      "symbol": "MediaPlayer.PlayerNotice.VideoState.VideoIsCued",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/public/Service.swift",
+      "line": 530,
+      "symbol": "Service.isSecurityModeSupported(completionHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK/SmartViewSDK/public/Service.swift",
+      "line": 629,
+      "symbol": "==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/chiragbaheti/Desktop/8june/SmartViewSDK"
+}

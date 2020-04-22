@@ -1,0 +1,6 @@
+framework module Pods_watchtv_WatchKit_Extension {
+  umbrella header "Pods-watchtv WatchKit Extension-umbrella.h"
+
+  export *
+  module * { export * }
+}
